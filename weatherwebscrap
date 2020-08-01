@@ -11,7 +11,7 @@ items = week.find_all(class_='tombstone-container')
 #print(items[0])
 
 print(items[0].find(class_='period-name').get_text())
-print(items[0].find(class_='short-desc').get_text)
+print(items[0].find(class_='short-desc').get_text())
 print(items[0].find(class_='temp').get_text())
 
 period_names = [item.find(class_='period-name').get_text() for item in items]
